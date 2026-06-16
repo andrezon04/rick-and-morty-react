@@ -1,0 +1,47 @@
+footer {
+    padding: 60px 0;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130.62%;
+    color: var(--color-white);
+
+    a {
+        span {
+            color: var(--color-primary);
+        }
+    }
+
+    span:hover {
+        text-decoration: underline;
+        color: #0f3a29;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 30px 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    footer {
+        font-size: 18px;
+        padding: 50px 20px;
+    }
+}
