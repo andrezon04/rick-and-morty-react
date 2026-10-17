@@ -1,4 +1,19 @@
-# Rick and Morty — Catálogo de personagens
+<div align="center">
+
+# Rick and Morty
+
+Personagens de uma API pública em uma interface React.
+
+  <img alt="React 19" src="https://img.shields.io/badge/React%2019-1a1b27?style=flat-square" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-1a1b27?style=flat-square" />
+  <img alt="Axios" src="https://img.shields.io/badge/Axios-1a1b27?style=flat-square" />
+  <img alt="Vite 8" src="https://img.shields.io/badge/Vite%208-1a1b27?style=flat-square" />
+
+**Projeto de estudo**
+
+</div>
+
+---
 
 Interface web de estudo que consulta a API pública de Rick and Morty e apresenta os personagens em cartões.
 
@@ -48,4 +63,3 @@ Próximos passos: apresentar estados de carregamento e erro, adicionar paginaç�
 ## Fonte dos dados
 
 [Rick and Morty API](https://rickandmortyapi.com/). Os personagens e as imagens pertencem aos respectivos titulares.
-
