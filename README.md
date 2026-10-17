@@ -1,16 +1,51 @@
-# React + Vite
+# Rick and Morty — Catálogo de personagens
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface web de estudo que consulta a API pública de Rick and Morty e apresenta os personagens em cartões.
 
-Currently, two official plugins are available:
+## Funcionalidades implementadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Consulta à primeira página do endpoint de personagens.
+- Exibição de imagem, nome, espécie, status e origem.
+- Interface organizada em componentes React, com estilos em CSS.
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React 19, JavaScript, Axios, CSS e Vite 8.
 
-## Expanding the ESLint configuration
+## Como executar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pré-requisitos: Node.js compatível com o Vite 8 (20.19+ ou 22.12+) e npm.
+
+```bash
+git clone https://github.com/andrezon04/react-rickmorty-api.git
+cd react-rickmorty-api
+npm ci
+npm run dev
+```
+
+Abra o endereço informado pelo Vite no terminal.
+
+| Comando | Finalidade |
+| --- | --- |
+| `npm run dev` | Iniciar o servidor de desenvolvimento. |
+| `npm run build` | Gerar a versão de produção em `dist/`. |
+| `npm run preview` | Visualizar localmente a versão gerada. |
+| `npm run lint` | Executar a análise estática configurada no projeto. |
+
+## Organização
+
+- `src/components/`: cartões, seções, cabeçalho, rodapé e links.
+- `src/assets/`: imagens e ícones.
+- `src/App.jsx`: composição da página.
+- `src/index.css`: estilos globais.
+
+## Estado do projeto
+
+Projeto de estudo. A consulta atual exibe a primeira página da API; busca, filtros e paginação ainda não estão implementados. O tratamento de falhas de rede atualmente registra o erro no console.
+
+Próximos passos: apresentar estados de carregamento e erro, adicionar paginação e ampliar a acessibilidade dos cartões.
+
+## Fonte dos dados
+
+[Rick and Morty API](https://rickandmortyapi.com/). Os personagens e as imagens pertencem aos respectivos titulares.
+
