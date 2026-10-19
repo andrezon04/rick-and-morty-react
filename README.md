@@ -38,8 +38,8 @@ React 19, JavaScript, Axios, CSS e Vite 8.
 Pré-requisitos: Node.js compatível com o Vite 8 (20.19+ ou 22.12+) e npm.
 
 ```bash
-git clone https://github.com/andrezon04/react-rickmorty-api.git
-cd react-rickmorty-api
+git clone https://github.com/andrezon04/rick-and-morty-react.git
+cd rick-and-morty-react
 npm ci
 npm run dev
 ```
