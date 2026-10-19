@@ -17,6 +17,12 @@ Personagens de uma API pública em uma interface React.
 
 Interface web de estudo que consulta a API pública de Rick and Morty e apresenta os personagens em cartões.
 
+## Foco técnico
+
+- Consumo de API pública com Axios em uma interface React.
+- Composição da página a partir de componentes reutilizáveis.
+- Apresentação de dados de personagens em cartões estilizados com CSS.
+
 ## Funcionalidades implementadas
 
 - Consulta à primeira página do endpoint de personagens.
